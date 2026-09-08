@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './', // Use relative paths for assets so it works on subpaths like /card2xchange/
+    base: '/card2xchange/', // Specific repo name for GitHub Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
