@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/',
+    base: './', // Use relative paths to allow double-clicking index.html
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
